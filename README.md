@@ -1,0 +1,2 @@
+# Digstruction
+ Minigame datapack

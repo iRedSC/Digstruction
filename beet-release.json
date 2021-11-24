@@ -1,0 +1,10 @@
+{
+    "extend": ["beet.json"],
+    "output": "build/release",
+    "name": "",
+    "version": "0.1.0",
+    "author": "iRedSC",
+    "data_pack": {
+        "zipped": true
+    }
+}

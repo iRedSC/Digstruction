@@ -1,0 +1,13 @@
+{
+    "output": "build/test",
+    "data_pack": {
+        "load": ["src"],
+        "name": "",
+        "description": "",
+        "pack_format": 7,
+        "render": {
+            "functions": ["**:**"]
+        }
+    },
+    "pipeline": ["plugins.render_messages"]
+}
