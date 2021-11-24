@@ -1,13 +1,15 @@
 {
     "output": "build/test",
+    "version": "0.1.0",
     "data_pack": {
         "load": ["src"],
         "name": "",
         "description": "",
-        "pack_format": 7,
-        "render": {
-            "functions": ["**:**"]
-        }
+        "pack_format": 7
     },
-    "pipeline": ["plugins.render_messages"]
+    "pipeline": ["from-storage.nbt"],
+    "meta": {
+        "datapack_namespace": "digstruction",
+        "messages_namespace": "messages"
+    }
 }
