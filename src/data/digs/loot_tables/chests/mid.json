@@ -1,0 +1,223 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": {
+          "min": 4,
+          "max": 8
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 8,
+            "name": "minecraft:milk_bucket"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:bricks",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 16,
+                  "max": 64
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 9,
+            "name": "minecraft:melon_slice",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:diamond"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:experience_bottle",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 6
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:stick"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:ender_pearl",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 4
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "minecraft:tnt",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{BlockStateTag:{unstable:\"true\"}}"
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "minecraft:arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 7,
+            "name": "minecraft:apple",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "minecraft:golden_apple",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 4,
+            "name": "digs:single/stew"
+          }
+        ]
+      },
+      {
+        "rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:stone_sword"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:wooden_sword"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:leather_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "minecraft:leather_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:leather_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "minecraft:leather_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:iron_axe",
+            "functions": [
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "name": "",
+                    "amount": 7,
+                    "operation": "addition",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:spyglass"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:iron_pickaxe"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:iron_shovel"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:diamond_shovel"
+          }
+        ]
+      }
+    ]
+  }
