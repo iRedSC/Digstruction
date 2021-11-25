@@ -3,6 +3,13 @@ execute at @e[tag=mid] run setblock ~ ~ ~ minecraft:structure_block[mode=load]{a
 execute at @e[tag=mid] run setblock ~ ~1 ~ redstone_block replace
 execute at @e[tag=mid] align xz run worldborder center ~1 ~
 
-execute at @e[tag=mid] run function digs:start/mid/teleport
+execute at @e[tag=mid] align xz positioned ~0.5 ~ ~0.5 run function digs:start/mid/teleport
 
 execute as @a at @s run function digs:start/encase
+
+kill @e[tag=mid]
+
+bossbar set game:timer players @a
+
+scoreboard players set $game.timer ds.const 10
+function digs:start/timer

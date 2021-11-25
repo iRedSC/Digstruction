@@ -19,5 +19,10 @@ scoreboard players set $game.location.x ds.const 8
 scoreboard players set $game.location.z ds.const 8
 scoreboard players set #22 ds.const 22
 
+# create bossbars
+bossbar add game:timer "Timer"
+bossbar set game:timer max 10
+bossbar set game:timer color purple
+
 # forceload chunk for setup
 forceload add 0 0
