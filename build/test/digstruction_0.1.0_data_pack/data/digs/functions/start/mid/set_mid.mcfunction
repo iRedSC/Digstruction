@@ -3,6 +3,6 @@ execute at @e[tag=mid] run setblock ~ ~ ~ minecraft:structure_block[mode=load]{a
 execute at @e[tag=mid] run setblock ~ ~1 ~ redstone_block replace
 execute at @e[tag=mid] align xz run worldborder center ~1 ~
 
-execute at @e[tag=mid] run tp @a ~-1 ~1 ~-15
+execute at @e[tag=mid] run function digs:start/mid/teleport
 
 execute as @a at @s run function digs:start/encase
