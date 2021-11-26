@@ -9,7 +9,7 @@
     },
     "pipeline": ["from-storage.nbt"],
     "meta": {
-        "datapack_namespace": "digstruction",
+        "datapack_namespace": "digs",
         "messages_namespace": "messages"
     }
 }

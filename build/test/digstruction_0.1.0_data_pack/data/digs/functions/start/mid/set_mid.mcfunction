@@ -5,11 +5,13 @@ execute at @e[tag=mid] align xz run worldborder center ~1 ~
 
 execute at @e[tag=mid] align xz positioned ~0.5 ~ ~0.5 run function digs:start/mid/teleport
 
-execute as @a at @s run function digs:start/encase
 
-kill @e[tag=mid]
+scoreboard players set $rng.range.max lcg 175
+scoreboard players set $rng.range.min lcg -175
+
+execute as @a at @s run function digs:start/encase
 
 bossbar set game:timer players @a
 
-scoreboard players set $game.timer ds.const 10
+scoreboard players set $game.timer ds.const 30
 function digs:start/timer
