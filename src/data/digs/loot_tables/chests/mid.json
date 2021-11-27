@@ -8,7 +8,7 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "weight": 7,
+            "weight": 8,
             "name": "minecraft:bricks",
             "functions": [
               {
@@ -19,11 +19,6 @@
                 }
               }
             ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 3,
-            "name": "minecraft:stone_sword"
           },
           {
             "type": "minecraft:item",
@@ -41,7 +36,7 @@
           },
           {
             "type": "minecraft:item",
-            "weight": 2,
+            "weight": 4,
             "name": "minecraft:golden_apple"
           },
           {
@@ -74,38 +69,8 @@
           },
           {
             "type": "minecraft:item",
-            "weight": 3,
-            "name": "minecraft:leather_boots"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 2,
-            "name": "minecraft:leather_chestplate"
-          },
-          {
-            "type": "minecraft:item",
             "weight": 1,
             "name": "minecraft:diamond_pickaxe"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 4,
-            "name": "minecraft:crafting_table"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 2,
-            "name": "minecraft:anvil"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 6,
-            "name": "minecraft:stick"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 2,
-            "name": "minecraft:diamond"
           },
           {
             "type": "minecraft:item",
@@ -119,39 +84,6 @@
           },
           {
             "type": "minecraft:item",
-            "weight": 2,
-            "name": "minecraft:obsidian",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 4
-                }
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 4,
-            "name": "minecraft:milk_bucket"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 6,
-            "name": "minecraft:glass",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 5
-                }
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
             "weight": 5,
             "name": "minecraft:arrow",
             "functions": [
@@ -161,17 +93,6 @@
                   "min": 1,
                   "max": 4
                 }
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 3,
-            "name": "minecraft:potion",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{Potion:\"minecraft:long_regeneration\"}"
               }
             ]
           },
@@ -205,39 +126,62 @@
             ]
           },
           {
-            "type": "minecraft:item",
+            "type": "minecraft:loot_table",
+            "weight": 3,
+            "name": "digs:sets/potions"
+          },
+          {
+            "type": "minecraft:loot_table",
             "weight": 4,
-            "name": "minecraft:splash_potion",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{Potion:\"minecraft:long_poison\"}"
-              }
-            ]
+            "name": "digs:sets/swords"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 4,
+            "name": "digs:sets/armor"
           },
           {
             "type": "minecraft:item",
-            "weight": 2,
-            "name": "minecraft:chainmail_leggings"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 1,
-            "name": "minecraft:bedrock",
+            "weight": 7,
+            "name": "minecraft:egg",
             "functions": [
               {
                 "function": "minecraft:set_count",
                 "count": {
                   "min": 1,
-                  "max": 8
+                  "max": 4
                 }
               }
             ]
           },
           {
             "type": "minecraft:item",
-            "weight": 2,
-            "name": "minecraft:ender_chest"
+            "weight": 10,
+            "name": "minecraft:snowball",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 4
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 3,
+            "name": "digs:single/tnt_cannon"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 3,
+            "name": "digs:single/fort"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 3,
+            "name": "digs:single/slime_pad"
           }
         ]
       }

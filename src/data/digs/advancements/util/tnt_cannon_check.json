@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:carrot_on_a_stick"
+              ],
+              "nbt": "{digs:{type:\"tnt_cannon\"}}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "digs:special/tnt_cannon/check"
+    }
+  }
+  

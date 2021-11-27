@@ -445,7 +445,7 @@
           },
           {
             "type": "minecraft:item",
-            "weight": 1,
+            "weight": 3,
             "name": "minecraft:netherite_helmet",
             "functions": [
               {
@@ -467,7 +467,7 @@
           },
           {
             "type": "minecraft:item",
-            "weight": 1,
+            "weight": 3,
             "name": "minecraft:netherite_chestplate",
             "functions": [
               {
@@ -489,7 +489,7 @@
           },
           {
             "type": "minecraft:item",
-            "weight": 1,
+            "weight": 3,
             "name": "minecraft:netherite_leggings",
             "functions": [
               {
@@ -511,7 +511,7 @@
           },
           {
             "type": "minecraft:item",
-            "weight": 1,
+            "weight": 3,
             "name": "minecraft:netherite_boots",
             "functions": [
               {

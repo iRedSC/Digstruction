@@ -4,4 +4,8 @@ data modify storage digs:messages game.winner set value '["",{"selector":"@a[gam
 
 data modify storage digs:messages game.started set value '{"text":"Game has started!","color":"gold"}'
 
-data modify storage digs:messages game.grace.ended set value '{"text":"Grace has ended!","color":"red"}'
+data modify storage digs:messages game.grace.ended set value '{"text":"Border is shrinking!","color":"red"}'
+
+data modify storage digs:messages game.special.air_strike set value '{"text":"Air strike incoming!","color":"red","bold": true}'
+
+data modify storage digs:messages game.special.tnt_cannon.replace set value '{"text":"TNT Stick -> 16 TNT","color":"dark_red"}'
