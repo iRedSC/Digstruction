@@ -3,11 +3,7 @@ bossbar set game:timer name ["",{"text":"Game starts in: ","color":"dark_purple"
 
 function math:init
 
-execute at @e[tag=mid] run function digs:chests/spawn
-execute at @e[tag=mid] run function digs:chests/spawn
-execute at @e[tag=mid] run function digs:chests/spawn
-execute at @e[tag=mid] run function digs:chests/spawn
-execute at @e[tag=mid] run function digs:chests/spawn
+execute at @e[tag=mid] run function digs:structures/chests/spawn
 
 execute unless score $game.timer ds.const matches 0 run schedule function digs:start/timer 1s
 execute if score $game.timer ds.const matches 0 run function digs:start/start

@@ -6,4 +6,4 @@ gamemode spectator @a
 clear @a
 tp @a @s
 worldborder set 432
-schedule function digs:start/mid/set_mid 3s
+schedule function digs:start/mid/set_mid 5s
