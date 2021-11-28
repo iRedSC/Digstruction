@@ -2,10 +2,10 @@
     "extend": ["beet.json"],
     "output": "build/release",
     "name": "",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "author": "iRedSC",
     "data_pack": {
-        "name": "digstruction_0.1.0",
+        "name": "digstruction_0.1.2",
         "zipped": true
     }
 }

@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:item_frame",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Air Strike\",\"color\":\"red\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"Call in the big guns.\",\"color\":\"gray\",\"italic\":false}']},EntityTag:{Item:{id:\"minecraft:scaffolding\",Count:1b,tag:{digs:{type:\"air_strike\"}}},Invisible:1b}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

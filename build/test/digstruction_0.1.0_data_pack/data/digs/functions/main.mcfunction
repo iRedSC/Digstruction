@@ -10,6 +10,8 @@ execute at @e[type=egg] run fill ~-1 ~-2 ~-1 ~1 ~-2 ~1 bricks replace #digs:air
 
 execute as @e[type=snowball] at @s run fill ~-0.7 ~-0.7 ~-0.7 ~0.7 ~0.7 ~0.7 air destroy
 
+execute as @e[tag=cage_trap] at @s if entity @a[distance=..1] run function digs:special/item_frame/cage_trap
+
 # item frame detection
 execute as @e[type=item_frame,tag=!eval] at @s run function digs:special/item_frame/test
 

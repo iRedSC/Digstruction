@@ -1,7 +1,7 @@
 #> digs:setup/init
 # initilization function
 
-say Reloaded
+say Reloaded Pro
 
 # scoreboard setup
 scoreboard objectives add ds.temp dummy
@@ -42,3 +42,7 @@ forceload add 0 0
 
 # initiate loop
 function digs:main-1s
+
+scoreboard players set $game.mode ds.const -1
+function digs:start/end
+function digs:start/display

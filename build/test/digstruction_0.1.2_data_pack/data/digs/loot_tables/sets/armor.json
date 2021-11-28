@@ -1,0 +1,538 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 25,
+            "name": "minecraft:leather_helmet",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:thorns",
+                  "minecraft:protection",
+                  "minecraft:fire_protection",
+                  "minecraft:blast_protection"
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 25,
+            "name": "minecraft:leather_chestplate",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:thorns",
+                  "minecraft:protection",
+                  "minecraft:fire_protection",
+                  "minecraft:blast_protection"
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 25,
+            "name": "minecraft:leather_leggings",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:thorns",
+                  "minecraft:protection",
+                  "minecraft:fire_protection",
+                  "minecraft:blast_protection"
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 25,
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:thorns",
+                  "minecraft:protection",
+                  "minecraft:fire_protection",
+                  "minecraft:blast_protection"
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 20,
+            "name": "minecraft:chainmail_helmet",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:thorns",
+                  "minecraft:protection",
+                  "minecraft:fire_protection",
+                  "minecraft:blast_protection"
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 20,
+            "name": "minecraft:chainmail_chestplate",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:thorns",
+                  "minecraft:protection",
+                  "minecraft:fire_protection",
+                  "minecraft:blast_protection"
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 20,
+            "name": "minecraft:chainmail_leggings",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:thorns",
+                  "minecraft:protection",
+                  "minecraft:fire_protection",
+                  "minecraft:blast_protection"
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 20,
+            "name": "minecraft:chainmail_boots",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:thorns",
+                  "minecraft:protection",
+                  "minecraft:fire_protection",
+                  "minecraft:blast_protection"
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 15,
+            "name": "minecraft:golden_helmet",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:thorns",
+                  "minecraft:protection",
+                  "minecraft:fire_protection",
+                  "minecraft:blast_protection"
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 15,
+            "name": "minecraft:golden_chestplate",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:thorns",
+                  "minecraft:protection",
+                  "minecraft:fire_protection",
+                  "minecraft:blast_protection"
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 15,
+            "name": "minecraft:golden_leggings",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:thorns",
+                  "minecraft:protection",
+                  "minecraft:fire_protection",
+                  "minecraft:blast_protection"
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 15,
+            "name": "minecraft:golden_boots",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:thorns",
+                  "minecraft:protection",
+                  "minecraft:fire_protection",
+                  "minecraft:blast_protection"
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:iron_helmet",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:thorns",
+                  "minecraft:protection",
+                  "minecraft:fire_protection",
+                  "minecraft:blast_protection"
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:iron_chestplate",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:thorns",
+                  "minecraft:protection",
+                  "minecraft:fire_protection",
+                  "minecraft:blast_protection"
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:iron_leggings",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:thorns",
+                  "minecraft:protection",
+                  "minecraft:fire_protection",
+                  "minecraft:blast_protection"
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:iron_boots",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:thorns",
+                  "minecraft:protection",
+                  "minecraft:fire_protection",
+                  "minecraft:blast_protection"
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:diamond_helmet",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:thorns",
+                  "minecraft:protection",
+                  "minecraft:fire_protection",
+                  "minecraft:blast_protection"
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:diamond_chestplate",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:thorns",
+                  "minecraft:protection",
+                  "minecraft:fire_protection",
+                  "minecraft:blast_protection"
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:diamond_leggings",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:thorns",
+                  "minecraft:protection",
+                  "minecraft:fire_protection",
+                  "minecraft:blast_protection"
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:diamond_boots",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:thorns",
+                  "minecraft:protection",
+                  "minecraft:fire_protection",
+                  "minecraft:blast_protection"
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:netherite_helmet",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:thorns",
+                  "minecraft:protection",
+                  "minecraft:fire_protection",
+                  "minecraft:blast_protection"
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:netherite_chestplate",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:thorns",
+                  "minecraft:protection",
+                  "minecraft:fire_protection",
+                  "minecraft:blast_protection"
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:netherite_leggings",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:thorns",
+                  "minecraft:protection",
+                  "minecraft:fire_protection",
+                  "minecraft:blast_protection"
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:netherite_boots",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:thorns",
+                  "minecraft:protection",
+                  "minecraft:fire_protection",
+                  "minecraft:blast_protection"
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

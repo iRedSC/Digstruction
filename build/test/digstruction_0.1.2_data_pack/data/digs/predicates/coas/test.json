@@ -1,0 +1,10 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "digs:coas/tnt_cannon"
+      }
+    ]
+  }
+  
