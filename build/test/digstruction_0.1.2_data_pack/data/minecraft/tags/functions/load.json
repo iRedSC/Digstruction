@@ -1,7 +1,0 @@
-{
-    "values": [
-        "digs:setup/messages",
-        "math:init",
-        "digs:setup/init"
-    ]
-}
