@@ -10,7 +10,11 @@ data_pack:
   description: ''
   pack_format: 7
 
+require:
+  - mecha.contrib.messages
+
 pipeline:
+  - mecha
   - iredsc.counter
   - iredsc.message_format
 

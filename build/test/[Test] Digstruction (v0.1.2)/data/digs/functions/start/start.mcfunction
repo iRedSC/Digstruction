@@ -1,11 +1,8 @@
 scoreboard players set $game.mode ds.const 1
 scoreboard players set $game.grace ds.const 300
-
 kill @e[tag=mid]
-
 bossbar set game:timer players
 tellraw @a ["", {"storage": "digs:messages", "nbt": "game.started", "interpret": true}]
-
 effect give @a instant_health 15 100 true
 effect give @a saturation 15 100 true
 execute as @a run attribute @s generic.max_health base set 80
