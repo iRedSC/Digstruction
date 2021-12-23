@@ -1,0 +1,23 @@
+execute as @a run scoreboard players operation @s ds.id %= #22 ds.const
+tp @a[scores={ds.id=0}] ~-1 ~1 ~-15
+tp @a[scores={ds.id=1}] ~-5 ~1 ~-14
+tp @a[scores={ds.id=2}] ~-9 ~1 ~-12
+tp @a[scores={ds.id=3}] ~-13 ~1 ~-8
+tp @a[scores={ds.id=4}] ~-14 ~1 ~-4
+tp @a[scores={ds.id=5}] ~-15 ~1 ~
+tp @a[scores={ds.id=6}] ~-14 ~1 ~4
+tp @a[scores={ds.id=7}] ~-13 ~1 ~8
+tp @a[scores={ds.id=8}] ~-9 ~1 ~12
+tp @a[scores={ds.id=9}] ~-5 ~1 ~14
+tp @a[scores={ds.id=10}] ~-1 ~1 ~15
+tp @a[scores={ds.id=11}] ~3 ~1 ~15
+tp @a[scores={ds.id=12}] ~7 ~1 ~13
+tp @a[scores={ds.id=13}] ~11 ~1 ~10
+tp @a[scores={ds.id=14}] ~14 ~1 ~6
+tp @a[scores={ds.id=15}] ~15 ~1 ~2
+tp @a[scores={ds.id=16}] ~15 ~1 ~-2
+tp @a[scores={ds.id=17}] ~14 ~1 ~-6
+tp @a[scores={ds.id=18}] ~11 ~1 ~-10
+tp @a[scores={ds.id=19}] ~7 ~1 ~-13
+tp @a[scores={ds.id=20}] ~3 ~1 ~-15
+tp @a[scores={ds.id=21}] ~-1 ~1 ~-15

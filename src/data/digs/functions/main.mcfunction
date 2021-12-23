@@ -1,5 +1,5 @@
 #> digs:main
-# One tick loop
+# One tick loop 
 
 # Detect when a players uses a CoaS
 execute as @a[scores={ds.use_coas=1..}] at @s run function digs:special/coas/test

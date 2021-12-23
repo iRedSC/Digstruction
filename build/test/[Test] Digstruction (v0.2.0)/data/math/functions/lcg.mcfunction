@@ -1,0 +1,11 @@
+scoreboard players operation $rng lcg *= $rng.multiplier lcg
+scoreboard players operation $rng lcg += $rng.increment lcg
+execute if score $rng lcg matches ..-1 run scoreboard players operation $rng lcg *= #-1 ds.const
+scoreboard players operation $rng lcg /= #10000 ds.const
+scoreboard players operation $rng.output lcg = $rng lcg
+scoreboard players operation $rng.range.max lcg -= $rng.range.min lcg
+scoreboard players operation $rng.range.max lcg += #1 ds.const
+scoreboard players operation $rng.output lcg %= $rng.range.max lcg
+scoreboard players operation $rng.output lcg += $rng.range.min lcg
+scoreboard players operation $rng.range.max lcg += $rng.range.min lcg
+scoreboard players operation $rng.range.max lcg -= #1 ds.const

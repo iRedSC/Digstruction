@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:leather_boots"
+              ],
+              "nbt": "{digs:{type:\"builder_boots\"}}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "digs:special/builder_boots/check"
+    }
+  }
+  
